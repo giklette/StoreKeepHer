@@ -1,0 +1,58 @@
+header { 
+    display: block;
+    margin: 0px;
+    background-color: olive;
+}
+
+footer { 
+    display: block;
+    margin: 0px;
+    background-color: olivedrab;
+}
+
+body { 
+    display: block;
+    margin: 0px;
+    background-color: darkolivegreen;
+}
+
+.base {
+    display: block;
+    margin: 8px;
+}
+
+#about {
+    background-color: cyan;
+}
+
+#login {
+    background-color: yellow;
+}
+
+#list {
+    background-color: pink;
+}
+
+table {
+    border-width:2px;
+    border-color:blue;
+    width:50%;
+}
+
+tr#filters td {
+    border-width:1px;
+    border-style:solid;
+    border-color:green;
+    /*width:50%;*/
+}
+
+tr:hover.row {
+    background-color: purple;
+}
+
+td {
+    border-width:1px;
+    border-style:solid;
+    border-color:red;
+    /*width:50%;*/
+}

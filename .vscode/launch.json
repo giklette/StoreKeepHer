@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python",
+            "type": "python",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}"
+            ],
+            "pythonPath":"${config.python.pythonPath}", 
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "externalTerminal",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ],
+            "env": {"name":"value"}
+        }
+    ]
+}
