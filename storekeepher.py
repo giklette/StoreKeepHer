@@ -53,7 +53,7 @@ def login_post():
         return "<p>Login failed.</p>"
 
 @app.route('/list')
-@view('templates/list')
+@view('templates/product_list')
 def view_list():
     args = { 
         'title': 'StoreKeepHer',

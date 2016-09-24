@@ -33,6 +33,10 @@ body {
     background-color: pink;
 }
 
+#sheet {
+    background-color: pink;
+}
+
 table {
     border-width:2px;
     border-color:blue;
